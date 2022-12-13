@@ -1,91 +1,90 @@
-body{
-    display: flex;
-    height: 100vh;
-    font-family: 'Montserrat', sans-serif;
+body {
+  display: flex;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
-    font-family: Montserrat;
-    src: url(Montserrat-Regular.ttf);
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.ttf);
 }
 
-#page{
-    background-color: lightcoral;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+#page {
+  background-color: lightcoral;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-img{
-    width: 350px;
-    height: auto;
-    overflow: hidden;
-    flex-shrink: 0;
+img {
+  width: 350px;
+  height: auto;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
-#words{
-    background-color: navy;
-    color: white;
-    flex-grow: 1;
-    width: 100%;
+#words {
+  background-color: navy;
+  color: white;
+  flex-grow: 1;
+  width: 100%;
 }
 
-#page_right{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 400px;
-    gap: 40px;
+#page_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 400px;
+  gap: 40px;
 }
 
-#inputs{
-    background-color: lightblue;
-    color: navy;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+#inputs {
+  background-color: lightblue;
+  color: navy;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
-fieldset{
-    display: flex;
-    flex-wrap: wrap;
-    height: 180px;
-    width: 400px;
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  width: 400px;
 }
 
-.container{
-    width: 200px;
-    height: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.container {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-input{
-    width: 150px;
+input {
+  width: 150px;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-button{
-    background-color: navy;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-    height: 50px;
-    width: 150px;
-    border-radius: 10%;
+button {
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 50px;
+  width: 150px;
+  border-radius: 10%;
 }
 
-#create-acct{
-    background-color: navy;
-    color: white;
-    flex-grow: 1;
+#create-acct {
+  background-color: navy;
+  color: white;
+  flex-grow: 1;
 }
-
