@@ -1,7 +1,12 @@
 body{
     display: flex;
     height: 100vh;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.ttf);
 }
 
 #page{
@@ -25,30 +30,57 @@ img{
     width: 100%;
 }
 
+#page_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    gap: 40px;
+}
+
 #inputs{
     background-color: lightblue;
     color: navy;
     flex-grow: 1;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 fieldset{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    gap: 15px;
     height: 180px;
-    width: 600px;
+    width: 400px;
 }
 
 .container{
+    width: 200px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 input{
-    width: 200px;
+    width: 150px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+button{
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 50px;
+    width: 150px;
+    border-radius: 10%;
 }
 
 #create-acct{
@@ -56,3 +88,4 @@ input{
     color: white;
     flex-grow: 1;
 }
+
